@@ -86,7 +86,7 @@ const Dashboard_Content = () => {
 
                             {
                                 data.map((items) => (
-                                    <tr className="border-b duration-500 border-gray-200 text-red-500 font-medium hover:bg-red-500 hover:text-white">
+                                    <tr key={items.id} className="border-b duration-500 border-gray-200 text-red-500 font-medium hover:bg-red-500 hover:text-white">
                                         <th scope="row" className="px-6 py-4 duration-500 whitespace-nowrap">
                                             {items.Username}
                                         </th>
