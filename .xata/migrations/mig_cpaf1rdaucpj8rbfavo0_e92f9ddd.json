@@ -1,0 +1,17 @@
+{
+  "id": "mig_cpaf1rdaucpj8rbfavo0",
+  "parentID": "mig_cpaf1m5aucpj8rbfavn0",
+  "checksum": "1:e92f9ddd03a7e22160608d37092c6c28994ce4ed6a558b10835058c9bead3ac1",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Username",
+          "type": "string",
+          "unique": true
+        },
+        "table": "Dashboard"
+      }
+    }
+  ]
+}

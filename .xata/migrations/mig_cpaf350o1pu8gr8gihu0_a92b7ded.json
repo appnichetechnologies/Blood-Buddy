@@ -1,0 +1,16 @@
+{
+  "id": "mig_cpaf350o1pu8gr8gihu0",
+  "parentID": "mig_cpaf30taucpj8rbfavu0",
+  "checksum": "1:a92b7ded13f2aa11f4cd38de089fb25a18e86b3cf4ea3011c7a7fed58418c9c3",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Message",
+          "type": "text"
+        },
+        "table": "Dashboard"
+      }
+    }
+  ]
+}

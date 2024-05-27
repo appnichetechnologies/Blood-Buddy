@@ -1,0 +1,17 @@
+{
+  "id": "mig_cpaf2m5aucpj8rbfavs0",
+  "parentID": "mig_cpaf2goo1pu8gr8gihsg",
+  "checksum": "1:2ffc9421b4ad2b80d05d2c57d782c9e2a5b1f3f6c4e9bc0e5c7644277b359bc8",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Contact",
+          "type": "string",
+          "unique": true
+        },
+        "table": "Dashboard"
+      }
+    }
+  ]
+}

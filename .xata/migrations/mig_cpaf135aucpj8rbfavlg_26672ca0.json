@@ -1,7 +1,7 @@
 {
-  "id": "mig_cos1nt7ufjs7i8p7gfjg",
-  "parentID": "mig_cos1novufjs7i8p7gfig",
-  "checksum": "1:d908eceace60b5c2aa8eaf9bb2a9bcf99325cbbffa49c781a09da52c22a68a64",
+  "id": "mig_cpaf135aucpj8rbfavlg",
+  "parentID": "mig_cpaf0i5aucpj8rbfavkg",
+  "checksum": "1:26672ca0aa39f769c66e3a5c8b71ac15a1a43da361510c15d906760957b5c499",
   "operations": [
     {
       "addColumn": {

@@ -58,26 +58,26 @@ const Dashboard_Content = () => {
 
 
             <div className="mt-10 w-[80dvw] ml-[10dvw] pb-[10dvh]">
-                <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-                    <table class="w-full text-sm text-left rtl:text-right text-gray-500">
-                        <thead class="text-xs text-gray-700 uppercase text-white">
+                <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+                    <table className="w-full text-sm text-left rtl:text-right text-gray-500">
+                        <thead className="text-xs uppercase text-white">
                             <tr>
-                                <th scope="col" class="px-6 py-3 bg-red-500">
+                                <th scope="col" className="px-6 py-3 bg-red-500">
                                     User Name
                                 </th>
-                                <th scope="col" class="px-6 py-3 bg-red-500">
+                                <th scope="col" className="px-6 py-3 bg-red-500">
                                     Email
                                 </th>
-                                <th scope="col" class="px-6 py-3 bg-red-500">
+                                <th scope="col" className="px-6 py-3 bg-red-500">
                                     Contact
                                 </th>
-                                <th scope="col" class="px-6 py-3 bg-red-500">
+                                <th scope="col" className="px-6 py-3 bg-red-500">
                                     Blood Group
                                 </th>
-                                <th scope="col" class="px-6 py-3 bg-red-500">
+                                <th scope="col" className="px-6 py-3 bg-red-500">
                                     Medical History
                                 </th>
-                                <th scope="col" class="px-6 py-3 bg-red-500">
+                                <th scope="col" className="px-6 py-3 bg-red-500">
                                     Message
                                 </th>
                             </tr>
@@ -86,23 +86,23 @@ const Dashboard_Content = () => {
 
                             {
                                 data.map((items) => (
-                                    <tr class="border-b duration-500 border-gray-200 text-red-500 font-medium hover:bg-red-500 hover:text-white">
-                                        <th scope="row" class="px-6 py-4 duration-500 whitespace-nowrap">
+                                    <tr className="border-b duration-500 border-gray-200 text-red-500 font-medium hover:bg-red-500 hover:text-white">
+                                        <th scope="row" className="px-6 py-4 duration-500 whitespace-nowrap">
                                             {items.Username}
                                         </th>
-                                        <td class="px-6 py-4">
+                                        <td className="px-6 py-4">
                                             {items.Email}
                                         </td>
-                                        <td class="px-6 py-4">
+                                        <td className="px-6 py-4">
                                             {items.Contact}
                                         </td>
-                                        <td class="px-6 py-4">
+                                        <td className="px-6 py-4">
                                             {items.BloodGroup}
                                         </td>
-                                        <td class="px-6 py-4">
+                                        <td className="px-6 py-4">
                                             {items.MedicalHistory}
                                         </td>
-                                        <td class="px-6 py-4">
+                                        <td className="px-6 py-4">
                                             {items.Message}
                                         </td>
                                     </tr>

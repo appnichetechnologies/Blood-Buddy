@@ -16,22 +16,17 @@ const tables = [
         notNull: true,
         defaultValue: "user@123",
       },
-      { name: "Email", type: "string", unique: true },
+      { name: "Email", type: "email", unique: true },
     ],
   },
   {
     name: "Dashboard",
     columns: [
       { name: "Username", type: "string", unique: true },
-      {
-        name: "Email",
-        type: "string",
-        notNull: true,
-        defaultValue: "user@gmail.com",
-      },
+      { name: "Email", type: "email", unique: true },
       { name: "Contact", type: "string", unique: true },
       { name: "BloodGroup", type: "string" },
-      { name: "MedicalHistory", type: "text", defaultValue: "" },
+      { name: "MedicalHistory", type: "text" },
       { name: "Message", type: "text" },
       {
         name: "UserType",
@@ -46,7 +41,7 @@ const tables = [
 const DatabaseClient = (0, client_1.buildClient)();
 const defaultOptions = {
   databaseURL:
-    "https://Appniche-s-workspace-uqsalv.us-east-1.xata.sh/db/BloodBuddy",
+    "https://appnichetechnologies-s-workspace-bbijnp.us-east-1.xata.sh/db/BloodBuddy",
 };
 /** @typedef { import('./types').DatabaseSchema } DatabaseSchema */
 /** @extends DatabaseClient<DatabaseSchema> */

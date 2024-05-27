@@ -1,7 +1,7 @@
 {
-  "id": "mig_cos9q2jjhp5tqv7hi8rg",
-  "parentID": "mig_cos9pnpf1lrsht4tdobg",
-  "checksum": "1:b9bf0a938c7a764256ec4a1b011a65b580db57f674cfb40a85d9bc4718be6c0f",
+  "id": "mig_cpaf3bdaucpj8rbfavv0",
+  "parentID": "mig_cpaf350o1pu8gr8gihu0",
+  "checksum": "1:136a1252c298076fa18c9bae95b887ed97516b1101cdb8a992423d9f33fedf09",
   "operations": [
     {
       "addColumn": {
@@ -11,7 +11,7 @@
           "notNull": true,
           "defaultValue": "Donor"
         },
-        "table": "Donors"
+        "table": "Dashboard"
       }
     }
   ]

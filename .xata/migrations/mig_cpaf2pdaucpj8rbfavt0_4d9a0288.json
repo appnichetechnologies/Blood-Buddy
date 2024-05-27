@@ -1,0 +1,16 @@
+{
+  "id": "mig_cpaf2pdaucpj8rbfavt0",
+  "parentID": "mig_cpaf2m5aucpj8rbfavs0",
+  "checksum": "1:4d9a028833cdd98915f2254dae2d023ac3171de2c09c2d28b44d675321b0bf35",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "BloodGroup",
+          "type": "string"
+        },
+        "table": "Dashboard"
+      }
+    }
+  ]
+}

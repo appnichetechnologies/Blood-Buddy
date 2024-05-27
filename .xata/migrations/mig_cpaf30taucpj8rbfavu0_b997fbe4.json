@@ -1,0 +1,16 @@
+{
+  "id": "mig_cpaf30taucpj8rbfavu0",
+  "parentID": "mig_cpaf2pdaucpj8rbfavt0",
+  "checksum": "1:b997fbe4da8ffc342fed24b09e05bde8f54f0b8c312602c39e3f5b7149d794db",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "MedicalHistory",
+          "type": "text"
+        },
+        "table": "Dashboard"
+      }
+    }
+  ]
+}

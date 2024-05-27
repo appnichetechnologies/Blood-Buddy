@@ -1,4 +1,4 @@
-import { Footer } from "../../common/footer";
+import Footer from "../../common/Footer";
 import Dashboard_Content from "../../components/admin/donors"
 export default function Dashboard()
 {
