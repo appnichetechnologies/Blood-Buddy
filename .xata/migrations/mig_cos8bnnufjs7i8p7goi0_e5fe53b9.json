@@ -1,0 +1,17 @@
+{
+  "id": "mig_cos8bnnufjs7i8p7goi0",
+  "parentID": "mig_cos8bl1f1lrsht4tdo00",
+  "checksum": "1:e5fe53b930ca14b82dbd2f1f16b1cdb1863a984039ac1631325c4f473aafde55",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Email",
+          "type": "string",
+          "unique": true
+        },
+        "table": "Receivers"
+      }
+    }
+  ]
+}

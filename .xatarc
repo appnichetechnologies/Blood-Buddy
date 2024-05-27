@@ -1,0 +1,7 @@
+{
+  "databaseURL": "https://Appniche-s-workspace-uqsalv.us-east-1.xata.sh/db/BloodBuddy",
+  "codegen": {
+    "output": "src/xata.js",
+    "moduleType": "cjs"
+  }
+}

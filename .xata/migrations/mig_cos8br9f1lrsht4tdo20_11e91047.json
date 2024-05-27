@@ -1,0 +1,13 @@
+{
+  "id": "mig_cos8br9f1lrsht4tdo20",
+  "parentID": "mig_cos8bq9f1lrsht4tdo10",
+  "checksum": "1:11e910477275ede206185067098ad9d61846d5220c75688e83a674278788e0d7",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "Email",
+        "table": "Receivers"
+      }
+    }
+  ]
+}

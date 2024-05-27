@@ -1,0 +1,18 @@
+{
+  "id": "mig_cos8a31f1lrsht4tdnt0",
+  "parentID": "mig_cos89q3jhp5tqv7hi7v0",
+  "checksum": "1:7edafc72e633709ca35eb4f659806858fc775eddc44f833ef00dc1a7b82f0e3b",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Email",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "user@gmail.com"
+        },
+        "table": "Donors"
+      }
+    }
+  ]
+}

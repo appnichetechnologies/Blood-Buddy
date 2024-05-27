@@ -1,0 +1,17 @@
+{
+  "id": "mig_cos8bffufjs7i8p7goh0",
+  "parentID": "mig_cos8b51f1lrsht4tdnv0",
+  "checksum": "1:bf61fead92e48bb4f2e6dd412f2071f8084e9778be3774d484cfc5b9b3276ac6",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "MedicalHistory",
+          "type": "text",
+          "defaultValue": ""
+        },
+        "table": "Donors"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mig_cos9h01f1lrsht4tdo90",
+  "parentID": "mig_cos8c5pf1lrsht4tdo30",
+  "checksum": "1:2c5500e064573794c295688c22132d3fc07e0b00e88c599bf8b61a3de62acf59",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Message",
+          "type": "text"
+        },
+        "table": "Donors"
+      }
+    }
+  ]
+}

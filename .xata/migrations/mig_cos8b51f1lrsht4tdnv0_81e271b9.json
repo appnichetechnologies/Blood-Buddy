@@ -1,0 +1,16 @@
+{
+  "id": "mig_cos8b51f1lrsht4tdnv0",
+  "parentID": "mig_cos8a8pf1lrsht4tdnu0",
+  "checksum": "1:81e271b98750f8b8993f2c432dc02b0d8a9134ab949e510a69d8c3d877014495",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "BloodGroup",
+          "type": "string"
+        },
+        "table": "Donors"
+      }
+    }
+  ]
+}

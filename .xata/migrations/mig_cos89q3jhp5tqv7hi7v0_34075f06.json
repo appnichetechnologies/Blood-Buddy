@@ -1,0 +1,17 @@
+{
+  "id": "mig_cos89q3jhp5tqv7hi7v0",
+  "parentID": "mig_cos89k1f1lrsht4tdnr0",
+  "checksum": "1:34075f06572fc64a8cd985fd9c4a60737526209408ba4937b1d941e07d44e549",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "Username",
+          "type": "string",
+          "unique": true
+        },
+        "table": "Donors"
+      }
+    }
+  ]
+}

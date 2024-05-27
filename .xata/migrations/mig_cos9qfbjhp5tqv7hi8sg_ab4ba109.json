@@ -1,0 +1,13 @@
+{
+  "id": "mig_cos9qfbjhp5tqv7hi8sg",
+  "parentID": "mig_cos9q2jjhp5tqv7hi8rg",
+  "checksum": "1:ab4ba10913f4dfbc84fe9858fe30b3851ac5ba7917197d2d2ae4028af91cb051",
+  "operations": [
+    {
+      "renameTable": {
+        "newName": "Dashboard",
+        "oldName": "Donors"
+      }
+    }
+  ]
+}
